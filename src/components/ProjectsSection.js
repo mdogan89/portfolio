@@ -5,28 +5,32 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Little Lemon Restaurant",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "Homepage for fictious restaurant Little Lemon with booking table and menu APIs",
+    getImageSrc: () => require("../videos/LittleLemonRestaurant.mp4"),
+    url: 'https://mdogan89.github.io/little_lemon_project/',
   },
   {
-    title: "React Infinite Scroll",
+    title: "Netflix Clone",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "A netflix clone with Django. User registration, profile management and search content functionality.",
+    getImageSrc: () => require("../videos/Netflix.mp4"),
+    url: 'https://mdogan89.pythonanywhere.com/',
   },
   {
-    title: "Photo Gallery",
+    title: "Mastermind Game",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "Basic gameplay of classical board game mastermind with HTML, CSS, Javascript.",
+    getImageSrc: () => require("../videos/Mastermind.mp4"),
+    url: 'https://mdogan89.github.io/mastermind/',
   },
   {
-    title: "Event planner",
+    title: "Portfolio",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "Fictious portfolio page with HTML,CSS,Javascript",
+    getImageSrc: () => require("../videos/Portfolio.mp4"),
+    url: 'https://mdogan89.github.io/portfolio_neos/',
   },
 ];
 
@@ -53,6 +57,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            url={project.url}
           />
         ))}
       </Box>

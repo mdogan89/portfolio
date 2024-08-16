@@ -2,9 +2,10 @@ import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
-const greeting = "Hello, I am Pete!";
-const bio1 = "A frontend developer";
-const bio2 = "specialised in React";
+const greeting = "Hello, I am Mustafa!";
+const bio1 = "A full-stack web developer";
+const bio2 = "specialised in React & Django";
+const getImageSrc = () => require("../images/1723159540532.jpg")
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
@@ -16,7 +17,7 @@ const LandingSection = () => (
     backgroundColor="#2A4365"
   >
     <VStack>
-      <Avatar src="https://i.pravatar.cc/150?img=7" size="xl"></Avatar>
+      <Avatar src={getImageSrc()} size="xl"></Avatar>
       <p> {greeting} </p>
       <Heading> {bio1} </Heading>
       <Heading> {bio2} </Heading>
