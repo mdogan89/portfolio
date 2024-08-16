@@ -4,37 +4,27 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
-  faMedium,
-  faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: hello@example.com",
+    url: "mailto: mdogan89@hotmail.com",
   },
   {
     icon: faGithub,
-    url: "https://github.com/",
+    url: "https://github.com/mdogan89",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com/",
-  },
-  {
-    icon: faMedium,
-    url: "https://medium.com",
-  },
-  {
-    icon: faStackOverflow,
-    url: "https://stackoverflow.com",
-  },
+    url: "https://www.linkedin.com/in/mdogan89",
+  }
 ];
 
 const Header = () => {
 
-    const headerRef = useRef(null);
+  const headerRef = useRef(null);
 
   useEffect(() => {
     let prevScrollPos = window.scrollY;
@@ -92,20 +82,20 @@ const Header = () => {
         >
           <nav>
             <HStack spacing={8}>
-            {/* Add social media links based on the `socials` data */}
-            {socials.map(({icon, url}) => (
-              <a 
-                key={url}
-                href ={url}
-                target="_blank">
+              {/* Add social media links based on the `socials` data */}
+              {socials.map(({ icon, url }) => (
+                <a
+                  key={url}
+                  href={url}
+                  target="_blank">
                   <FontAwesomeIcon icon={icon} size="2x" key={url} />
                 </a>
-            ))}
+              ))}
             </HStack>
           </nav>
           <nav>
             <HStack spacing={8}>
-              {/* Add links to Projects and Contact me section */} 
+              {/* Add links to Projects and Contact me section */}
               <a href="#projects" onClick={handleClick("projects")}>Projects</a>
               <a href="#contact-me" onClick={handleClick("contactme")}>Contact Me</a>
             </HStack>
