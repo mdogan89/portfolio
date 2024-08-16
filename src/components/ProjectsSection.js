@@ -9,7 +9,7 @@ const projects = [
     description:
       "Homepage for fictious restaurant Little Lemon with booking table and menu APIs",
     getImageSrc: () => require("../videos/LittleLemonRestaurant.mp4"),
-    url: 'https://mdogan89.github.io/little_lemon_project/',
+    url: 'https://littlelemonrestaurant-mdogan89s-projects.vercel.app/',
   },
   {
     title: "Netflix Clone",
@@ -28,7 +28,7 @@ const projects = [
   {
     title: "Portfolio",
     description:
-      "Fictious portfolio page with HTML,CSS,Javascript",
+      "A simple fictious responsive portfolio page with HTML, CSS and Javascript",
     getImageSrc: () => require("../videos/Portfolio.mp4"),
     url: 'https://mdogan89.github.io/portfolio_neos/',
   },
@@ -57,7 +57,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
-            url={project.url}
+            url={project.url} target='_blank'
           />
         ))}
       </Box>

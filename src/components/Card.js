@@ -16,7 +16,7 @@ const Card = ({ title, description, imageSrc, url }) => {
         <VStack p={5}>
           <Heading alignSelf="start" size="md">{title}</Heading>
           <Text color="gray">{description}</Text>
-          <Link href={url} alignSelf="start">See more<FontAwesomeIcon icon={faArrowRight} size="1x" /></Link>
+          <Link href={url} target='_blank' alignSelf="start">See more<FontAwesomeIcon icon={faArrowRight} size="1x" /></Link>
         </VStack>
       </VStack>
     </Box>
