@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_meta/static/css/main.df6a7eab.css",
-    "main.js": "/portfolio_meta/static/js/main.870ebc7d.js",
+    "main.css": "/portfolio_meta/static/css/main.791f267d.css",
+    "main.js": "/portfolio_meta/static/js/main.e8a224f8.js",
     "static/js/111.ad1cef69.chunk.js": "/portfolio_meta/static/js/111.ad1cef69.chunk.js",
-    "static/media/photo4.jpg": "/portfolio_meta/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
-    "static/media/photo2.jpg": "/portfolio_meta/static/media/photo2.7d510936625768642967.jpg",
-    "static/media/photo3.jpg": "/portfolio_meta/static/media/photo3.9a32dfac129b20149889.jpg",
-    "static/media/photo1.jpg": "/portfolio_meta/static/media/photo1.76b22eb753ddc88e0626.jpg",
+    "static/media/Netflix.mp4": "/portfolio_meta/static/media/Netflix.29ffec48da0f3b05c7b2.mp4",
+    "static/media/LittleLemonRestaurant.mp4": "/portfolio_meta/static/media/LittleLemonRestaurant.e811b48c9fef5db191e0.mp4",
+    "static/media/Mastermind.mp4": "/portfolio_meta/static/media/Mastermind.14baf268b94e16d9eb1d.mp4",
+    "static/media/Portfolio.mp4": "/portfolio_meta/static/media/Portfolio.ffffef1e64d317450be3.mp4",
+    "static/media/1723159540532.jpg": "/portfolio_meta/static/media/1723159540532.47c1b4e137c7c79163dd.jpg",
     "index.html": "/portfolio_meta/index.html",
-    "main.df6a7eab.css.map": "/portfolio_meta/static/css/main.df6a7eab.css.map",
-    "main.870ebc7d.js.map": "/portfolio_meta/static/js/main.870ebc7d.js.map",
+    "main.791f267d.css.map": "/portfolio_meta/static/css/main.791f267d.css.map",
+    "main.e8a224f8.js.map": "/portfolio_meta/static/js/main.e8a224f8.js.map",
     "111.ad1cef69.chunk.js.map": "/portfolio_meta/static/js/111.ad1cef69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6a7eab.css",
-    "static/js/main.870ebc7d.js"
+    "static/css/main.791f267d.css",
+    "static/js/main.e8a224f8.js"
   ]
 }
