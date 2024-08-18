@@ -1,7 +1,7 @@
 {
-  "name": "graded-assessment",
+  "name": "Mustafa Dogan",
   "version": "0.1.0",
-  "homepage": "https://mdogan89.github.io/portfolio_meta",
+  "homepage": "https://mdogan89.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
