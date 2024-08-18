@@ -73,7 +73,7 @@ const Header = () => {
       zIndex={99}
       ref={headerRef}
     >
-      <Box color="white" maxWidth="1280px" margin="0 auto" >
+      <Box color="white" width='100%' margin="0 auto" >
         <HStack
           px={16}
           py={4}

@@ -15,6 +15,7 @@ const LandingSection = () => (
     alignItems="center"
     isDarkBackground
     backgroundColor="#2A4365"
+    textAlign='center'
   >
     <VStack>
       <Avatar src={getImageSrc()} size="xl"></Avatar>
