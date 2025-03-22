@@ -4,7 +4,7 @@ import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello, I am Mustafa!";
 const bio1 = "A full-stack web developer";
-const bio2 = "specialised in React & Django";
+const bio2 = "specialised in Unity, React & Django";
 const getImageSrc = () => require("../images/1723159540532.jpg")
 
 // Implement the UI for the LandingSection component according to the instructions.
