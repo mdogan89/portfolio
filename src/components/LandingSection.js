@@ -3,7 +3,7 @@ import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello, I am Mustafa!";
-const bio1 = "A full-stack web developer";
+const bio1 = "A full-stack developer";
 const bio2 = "specialised in Unity, React & Django";
 const getImageSrc = () => require("../images/1723159540532.jpg")
 

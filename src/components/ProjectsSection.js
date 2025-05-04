@@ -5,6 +5,13 @@ import Card from "./Card";
 
 const projects = [
   {
+    title: "Unity Projects",
+    description:
+      "Links and repositories of my Unity Projects. Mastermind, Architectural Rendering, Warehouse Simulator etc...",
+    getImageSrc: () => require("../images/Adsız tasarım.mp4"),
+    url: 'https://github.com/mdogan89/UnityProjects',
+  },
+  {
     title: "Little Lemon Restaurant",
     description:
       "Homepage for fictious restaurant Little Lemon with booking table and menu APIs",
@@ -24,14 +31,7 @@ const projects = [
       "Basic gameplay of classical board game mastermind with HTML, CSS, Javascript.",
     getImageSrc: () => require("../videos/Mastermind.mp4"),
     url: 'https://mdogan89.github.io/mastermind/',
-  },
-  {
-    title: "Portfolio",
-    description:
-      "Fictious portfolio page with HTML,CSS,Javascript",
-    getImageSrc: () => require("../videos/Portfolio.mp4"),
-    url: 'https://mdogan89.github.io/portfolio_neos/',
-  },
+  }
 ];
 
 const ProjectsSection = () => {
